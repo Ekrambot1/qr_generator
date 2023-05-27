@@ -6,7 +6,7 @@ import './qrcode.css';
 function QrCodeInfo() {
   const [wifiName, setWifiName] = useState("");
   const [password, setPassword] = useState("");
-  const [qrCodeVisible, setQrCodeVisible] = useState(true);
+  const [qrCodeVisible, setQrCodeVisible] = useState(false);
 
   const clickButton = () => {
     let qrimage = password;
