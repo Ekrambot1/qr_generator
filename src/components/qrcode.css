@@ -1,0 +1,10 @@
+.center{
+    background-color: rgb(134, 203, 224);
+    padding: 36px 270px;
+}
+.button1{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
